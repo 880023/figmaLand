@@ -822,7 +822,7 @@ a {
 
 
 
-/* ---------------------------------------- fautures adaptive  */
+/* ------------------------------------------------------------------------------------ fautures adaptive  */
 @media (max-width: 2560px) {
      
 }
@@ -846,7 +846,7 @@ a {
 @media (max-width: 425px) {}
 @media (max-width: 375px) {}
 @media (max-width: 320px) {}
-/* -------------------------------------Contents block */
+/* ------------------------------------------------------------------------------ Contents block */
 
 .container-contents {
      display: flex;
@@ -915,7 +915,7 @@ a {
 
 .card {
      display: flex;
-     width: calc(var(--index) *  24.53);
+     width: calc(var(--index) *  23.53);
      padding: calc(var(--index) * 2.061) 0px;
      flex-direction: column;
      align-items: center;
@@ -1197,7 +1197,7 @@ a {
      }
 }
 
-/* ---------------------------------- Gallery block*/
+/* ------------------------------------------------------------------------------------- Gallery block*/
 
 .container-gallery {
      margin: calc(var(--index) * 5.16) 0px 0px 0px;
@@ -1385,7 +1385,7 @@ a {
 @media (max-width: 375px) {}
 @media (max-width: 320px) {}
 
-/* -------------------------------------- Partners block */
+/* --------------------------------------------------------------------------------------- Partners block */
 
 .container-partners {
      display: flex;
@@ -1557,7 +1557,7 @@ a {
      }
 }
 
-/* ----------------------------- Testimonials block */
+/* -------------------------------------------------------------------------------- Testimonials block */
 
 .container-testimonials {
      margin: calc(var(--index) * 5.15) 0px 0px 0px;
@@ -1796,7 +1796,7 @@ a {
 @media (max-width: 376px) {}
 @media (max-width: 321px) {}
 
-/* -------------------------------- open Type block */
+/* ------------------------------------------------------------------------------ open Type block */
 
 .container-open-type {
      display: flex;
