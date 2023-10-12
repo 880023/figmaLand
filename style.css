@@ -1033,10 +1033,10 @@ a {
 
 .base_bottom {
      position: absolute;
-     top: -1px;
+     top: calc(var(--index) * 0.223);
      left: 0.5;
      width: calc(var(--index) * 20.88);
-     height:8px;
+     height: 8px;
      color: #9FA2A5;
      flex-shrink: 0;
 }
@@ -1104,9 +1104,7 @@ a {
                top: calc(var(--index) * -0.6);
           }
      
-          .base_bottom {
-               top: calc(var(--index) * -0.19);
-          }
+          
      
 }
 @media (max-width: 769px) {
@@ -1137,7 +1135,7 @@ a {
      }
      
      .base_bottom {
-          top: calc(var(--index) * -0.19);
+          top: calc(var(--index) * 0.26);
      }
 }
 
@@ -1147,11 +1145,11 @@ a {
      }
 
      .grip {
-          top: calc(var(--index) * -0.6);
+          top: calc(var(--index) * -0.8);
      }
 
      .base_bottom {
-          top: calc(var(--index) * -0.2);
+          top: calc(var(--index) * 0.3);
      }
 }
 
@@ -1165,11 +1163,12 @@ a {
           }
      
           .grip {
-               top: calc(var(--index) * -0.7);
+               top: calc(var(--index) * -1.2);
           }
      
           .base_bottom {
-               top: calc(var(--index) * -0.35);
+               top: calc(var(--index) * 0.35);
+               width: calc(var(--index) * 20.88);
           }
 }
 @media (max-width: 376px) {
@@ -1178,15 +1177,15 @@ a {
           margin-top: 33px;
      }
      .screen-block_base {
-               top: calc(var(--index) * -0.5);
+               top: calc(var(--index) * -0.9);
           }
      
           .grip {
-               top: calc(var(--index) * -0.6);
+               top: calc(var(--index) * -1.2);
           }
      
           .base_bottom {
-               top: calc(var(--index) * -0.3);
+               top: calc(var(--index) * 0.3);
           }
 }
 @media (max-width: 321px) {
@@ -1207,11 +1206,11 @@ a {
      }
      
      .grip {
-          top: calc(var(--index) * -0.8);
+          top: calc(var(--index) * -1.25);
      }
      
      .base_bottom {
-          top: calc(var(--index) * -0.5);
+          top: calc(var(--index) * 0.3);
      }
 }
 
